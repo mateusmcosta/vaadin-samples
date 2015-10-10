@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JEE-Samples:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JEE_Samples_war_exploded.war</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JEE-Samples/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JEE-Samples" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Vaadin Server" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
